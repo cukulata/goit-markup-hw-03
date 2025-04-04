@@ -41,6 +41,18 @@ nav {
     display: flex;
     gap: 40px;
 }
+.head-title {
+    max-width: 496px
+}
+.blue-button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    cursor: pointer;
+}
 .nav .header-nav:hover,
 .nav .header-nav:focus{
     color: #404bbf;
@@ -64,6 +76,7 @@ color: #434455;
 }
 .main-section {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 .main-section .head-title {
     font-size: 56px;
