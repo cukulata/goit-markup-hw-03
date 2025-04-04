@@ -99,12 +99,26 @@ color: #434455;
     background-color: #404bbf;
     cursor: pointer;
 }
+.about-section {
+    padding: 120px 0;
+}
+.visually-hidden {
+    display: none;
+}
+.about-list {
+    display:  flex;
+    gap: 24px;
+}
+.about-item {
+    width: calc((100% - 72px) / 4);
+}
 .features-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .features-text {
     font-size: 16px;
